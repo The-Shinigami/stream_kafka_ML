@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Main-Class: com.fullstackmaina.streamService.KafkaStreamServiceApplicati
+ on
+Class-Path: spring-messaging-5.3.12.jar spring-boot-starter-2.5.6.jar co
+ mmons-text-1.9.jar jackson-databind-2.12.5.jar commons-collections-3.2.
+ 2.jar hibernate-validator-6.2.0.Final.jar commons-logging-1.2.jar sprin
+ g-integration-core-5.5.5.jar spring-core-5.3.12.jar log4j-to-slf4j-2.14
+ .1.jar jackson-core-2.12.5.jar spring-boot-starter-validation-2.5.6.jar
+  connect-json-2.7.1.jar spring-kafka-2.7.8.jar jboss-logging-3.4.2.Fina
+ l.jar typetools-0.6.2.jar spring-cloud-stream-binder-kafka-core-3.1.4.j
+ ar commons-lang3-3.12.0.jar jackson-module-parameter-names-2.12.5.jar j
+ akarta.annotation-api-1.3.5.jar spring-web-5.3.12.jar reactive-streams-
+ 1.0.3.jar logback-classic-1.2.6.jar snakeyaml-1.28.jar tomcat-embed-cor
+ e-9.0.54.jar lombok-1.18.22.jar spring-beans-5.3.12.jar spring-retry-1.
+ 3.1.jar slf4j-api-1.7.32.jar spring-cloud-function-context-3.1.4.jar sp
+ ring-boot-starter-tomcat-2.5.6.jar spring-cloud-stream-3.1.4.jar reacto
+ r-core-3.4.11.jar spring-cloud-stream-binder-kafka-streams-3.1.4.jar sp
+ ring-boot-starter-json-2.5.6.jar tomcat-embed-el-9.0.54.jar jsr305-3.0.
+ 2.jar encog-core-3.4.jar lz4-java-1.7.1.jar spring-aop-5.3.12.jar openc
+ sv-5.3.jar kafka-streams-2.7.1.jar connect-api-2.7.1.jar commons-collec
+ tions4-4.4.jar jackson-annotations-2.12.5.jar classmate-1.5.1.jar rocks
+ dbjni-5.18.4.jar spring-boot-autoconfigure-2.5.6.jar commons-beanutils-
+ 1.9.4.jar snappy-java-1.1.7.7.jar logback-core-1.2.6.jar spring-integra
+ tion-jmx-5.5.5.jar spring-boot-2.5.6.jar spring-context-5.3.12.jar spri
+ ng-boot-starter-logging-2.5.6.jar jul-to-slf4j-1.7.32.jar kafka-clients
+ -2.7.1.jar jakarta.validation-api-2.0.2.jar tomcat-embed-websocket-9.0.
+ 54.jar spring-webmvc-5.3.12.jar spring-integration-kafka-5.5.5.jar spri
+ ng-expression-5.3.12.jar spring-boot-devtools-2.5.6.jar spring-tx-5.3.1
+ 2.jar spring-cloud-function-core-3.1.4.jar spring-jcl-5.3.12.jar zstd-j
+ ni-1.4.5-6.jar jackson-datatype-jdk8-2.12.5.jar jackson-datatype-jsr310
+ -2.12.5.jar log4j-api-2.14.1.jar spring-boot-starter-web-2.5.6.jar
+

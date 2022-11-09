@@ -1,0 +1,33 @@
+server:
+  port : 8081
+spring:
+  cloud:
+    stream:
+      bindings:
+        diabete-input-channel:
+          destination: diabetes
+        diabete-positive-output-channel:
+          destination: positive-class
+      kafka:
+        streams:
+          binder:
+            brokers: localhost:9092
+            replication-factor: 1
+            auto-add-partitions: on
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        spring:
+          json:
+            add:
+              type:
+                headers: false
+
+auto:
+  create:
+    topics: true
+
+
