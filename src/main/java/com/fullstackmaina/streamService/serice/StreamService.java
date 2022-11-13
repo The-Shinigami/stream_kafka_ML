@@ -35,6 +35,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @EnableBinding(StreamBindings.class)
 @Service
@@ -64,6 +66,10 @@ public class StreamService {
 				} catch (IOException e) {
 					System.out.println("error");
 				}
+//				list.remove(v.line());
+//				List<String[]> listNoDupes = new ArrayList<>(list.stream()
+//						.collect(Collectors.toMap(arr-> arr[1], Function.identity(), (a, b)-> a)).values());
+
 			});
 
 		return diabete;
